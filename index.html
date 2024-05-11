@@ -7,7 +7,7 @@
     <title>IMC</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <script src='main.js'></script>
+    <script src='js/main.js'></script>
 </head>
 
 <body>
@@ -26,11 +26,11 @@
         <main>
             <div class="div-main">
                 <form>
-                    <label for=""> Altura:</label>
-                    <input type="number" id="altura">
+                    <label> Altura:</label>
+                    <input type="number" id="altura" maxlength="5" placeholder=" Ex.: 1,70">
                     <br>
-                    <label type="number" id="peso">Peso:</label>
-                    <input type="text" id="peso">
+                    <label >Peso:</label>
+                    <input type="number" id="peso" maxlength="5" placeholder=" Ex.: 60">
                 </form>
                 <br>
                 <button onclick="calcular()" id="calcular">Calcular</button>
@@ -38,7 +38,7 @@
 
             <div class="div-main">
                 <p id="resultado">
-                    Resultado
+                    
                 </p>
             </div>
 
